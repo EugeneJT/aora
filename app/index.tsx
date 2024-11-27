@@ -7,9 +7,9 @@ import "../global.css";
 const App = () => {
   return (
     <View className='flex-1 items-center justify-center bg-white'>
-      <Text className='text-3xl font-pblack'>Aora</Text>
+      <Text className='text-3xl font-pbold'>Aora</Text>
       <StatusBar style='auto' />
-      <Link href='./profile' style={{ color: 'blue' }}> Go to Profile</Link>
+      <Link href='/home' style={{ color: 'blue' }}> Go to Home</Link>
     </View>
   )
 }
